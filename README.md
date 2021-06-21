@@ -7,7 +7,7 @@
 Easy to use night mode button with cool day night animation.
 
   ### Version
-[![](https://jitpack.io/v/shrikanth7698/Night-Mode-Button.svg)](https://jitpack.io/#shrikanth7698/Night-Mode-Button)
+[![](https://jitpack.io/v/Kaustuv-Mahanti/NightOwl.svg)](https://jitpack.io/#Kaustuv-Mahanti/NightOwl)
 
 ### Installation
 
@@ -16,18 +16,18 @@ Easy to use night mode button with cool day night animation.
 	Add it in your root build.gradle at the end of repositories:
 	```gradle
   allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
+  		repositories {
+  			...
+  			maven { url 'https://jitpack.io' }
+  		}
+  	}
 	```
 
 	Add the dependency in your app build.gradle
 	```gradle
   dependencies {
-	        implementation 'com.github.shrikanth7698:Night-Mode-Button:V1.0'
-	}
+  	        implementation 'com.github.Kaustuv-Mahanti:NightOwl:master-SNAPSHOT'
+  	}
 	```
 
 * **Maven**
@@ -35,20 +35,20 @@ Easy to use night mode button with cool day night animation.
 	Add the JitPack repository to your build file
 	```gradle
 	<repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
-	</repositories>
+    		<repository>
+    		    <id>jitpack.io</id>
+    		    <url>https://jitpack.io</url>
+    		</repository>
+    	</repositories>
 	```
 
 	Add the dependency
 	```gradle
   	<dependency>
-	    <groupId>com.github.shrikanth7698</groupId>
-	    <artifactId>Night-Mode-Button</artifactId>
-	    <version>V1.0</version>
-	  </dependency>
+    	    <groupId>com.github.Kaustuv-Mahanti</groupId>
+    	    <artifactId>NightOwl</artifactId>
+    	    <version>master-SNAPSHOT</version>
+    	</dependency>
 	```
   
 ### Usage
