@@ -1,0 +1,53 @@
+
+b
+java:S1192A"MDefine a constant instead of duplicating this literal "translationX" 4 times.(“— }
+d
+java:S1192="IDefine a constant instead of duplicating this literal "rotation" 4 times.(ÖíˆØûÿÿÿÿ
+c
+java:S1192K"HDefine a constant instead of duplicating this literal "#353535" 4 times.(µş±¨ıÿÿÿÿ
+c
+java:S1192K"HDefine a constant instead of duplicating this literal "#dadada" 4 times.(µş±¨ıÿÿÿÿ
+M
+java:S5411°"*Use the primitive boolean expression here.(Âğ²½ÿÿÿÿÿ8¦êñĞ¢/
+>
+java:S1604E"(Make this anonymous inner class a lambda(†£°î
+C
+java:S1604c"(Make this anonymous inner class a lambda(ç¨†øÿÿÿÿ
+D
+java:S1604‘"(Make this anonymous inner class a lambda(ç¨†øÿÿÿÿ
+C
+java:S16045"(Make this anonymous inner class a lambda(ïàÓ„øÿÿÿÿ
+?
+java:S1604½"(Make this anonymous inner class a lambda(†£°î
+D
+java:S1604Û"(Make this anonymous inner class a lambda(ç¨†øÿÿÿÿ
+D
+java:S1604ˆ"(Make this anonymous inner class a lambda(ç¨†øÿÿÿÿ
+J
+java:S1874D"/Remove this use of "Handler"; it is deprecated.(ŒÆ¿¶úÿÿÿÿ
+—
+java:S1186P"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(…×äñ
+œ
+java:S1186Z"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯Ÿõåıÿÿÿÿ
+œ
+java:S1186_"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ê‘·‡ùÿÿÿÿ
+—
+java:S1186~"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(…×äñ
+
+java:S1186ˆ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯Ÿõåıÿÿÿÿ
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ê‘·‡ùÿÿÿÿ
+K
+java:S1874¼"/Remove this use of "Handler"; it is deprecated.(ŒÆ¿¶úÿÿÿÿ
+˜
+java:S1186È"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(…×äñ
+
+java:S1186Ò"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯Ÿõåıÿÿÿÿ
+
+java:S1186×"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ê‘·‡ùÿÿÿÿ
+˜
+java:S1186õ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(…×äñ
+
+java:S1186ÿ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯Ÿõåıÿÿÿÿ
+
+java:S1186„"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ê‘·‡ùÿÿÿÿ
