@@ -26,7 +26,7 @@ Easy to use night mode button with cool day night animation.
 	Add the dependency in your app build.gradle
 	```gradle
   dependencies {
-  	        implementation 'com.github.Kaustuv-Mahanti:NightOwl:v1.0.0'
+  	        implementation 'com.github.Kaustuv-Mahanti:NightOwl:v1.3.0'
   	}
 	```
 
@@ -47,7 +47,7 @@ Easy to use night mode button with cool day night animation.
   	<dependency>
     	    <groupId>com.github.Kaustuv-Mahanti</groupId>
     	    <artifactId>NightOwl</artifactId>
-    	    <version>v1.0.0</version>
+    	    <version>v1.3.0</version>
     	</dependency>
 	```
   

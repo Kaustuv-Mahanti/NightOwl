@@ -40,7 +40,3 @@ $.idea/dictionaries/shrikanthravi.xml,e\d\ed764aa0705f23edfc06ac50f9f90f320de01
 settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
 A
 gradle.properties,2\a\2afbb999f001938c88fa43fc2ef52abf0f8213e4
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-l
-<library/src/main/java/com/nightowl/library/ToggleButton.java,c\6\c66affa88a794f2b9d68ccc6ddbe29314f3b7272
