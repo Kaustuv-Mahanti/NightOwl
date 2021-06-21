@@ -12,6 +12,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.cardview.widget.CardView;
 
 
@@ -55,6 +56,7 @@ public class ToggleButton extends RelativeLayout {
                 if(isNight && !inAnimation){
                     isNight=false;
                     inAnimation=true;
+                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
                     ObjectAnimator
                             .ofFloat(switchIV, "rotation", 0,360)
                             .setDuration(400)
@@ -107,6 +109,7 @@ public class ToggleButton extends RelativeLayout {
 
                     if(!inAnimation) {
                         isNight = true;
+                        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
                         ObjectAnimator
                                 .ofFloat(switchIV, "rotation", 360, 0)
                                 .setDuration(400)
@@ -173,6 +176,7 @@ public class ToggleButton extends RelativeLayout {
         if(!bool){
             isNight=false;
             inAnimation=true;
+            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
             ObjectAnimator
                     .ofFloat(switchIV, "rotation", 0,360)
                     .setDuration(400)
@@ -222,9 +226,9 @@ public class ToggleButton extends RelativeLayout {
             nightModeButtonClicked(isNight);
 
         }else {
-
             if(!inAnimation) {
                 isNight = true;
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
                 ObjectAnimator
                         .ofFloat(switchIV, "rotation", 360, 0)
                         .setDuration(400)
