@@ -26,7 +26,7 @@ Easy to use night mode button with cool day night animation.
 	Add the dependency in your app build.gradle
 	```gradle
   dependencies {
-  	        implementation 'com.github.Kaustuv-Mahanti:NightOwl:master-SNAPSHOT'
+  	        implementation 'com.github.Kaustuv-Mahanti:NightOwl:v1.0.0'
   	}
 	```
 
@@ -47,7 +47,7 @@ Easy to use night mode button with cool day night animation.
   	<dependency>
     	    <groupId>com.github.Kaustuv-Mahanti</groupId>
     	    <artifactId>NightOwl</artifactId>
-    	    <version>master-SNAPSHOT</version>
+    	    <version>v1.0.0</version>
     	</dependency>
 	```
   
@@ -55,61 +55,52 @@ Easy to use night mode button with cool day night animation.
 
 Drop the Night Mode Button in your XML layout as is shown below:
 ```xml
-    	<nightowl.library.NightModeButton
-		      android:layout_width="wrap_content"
-		      android:layout_height="wrap_content"
-		      android:layout_centerHorizontal="true"
-		      android:id="@+id/nightModeButton"
-		      android:layout_centerVertical="true"/>
+    	<com.nightowl.library.ToggleButton
+    	        android:id="@+id/nightModeButton"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_centerHorizontal="true"
+        		android:layout_centerVertical="true"/>
 
 ```
-And then in your Activity or fragment
+And Use in Java:
 ```java
         
         //Inside onCreate()
          
          NightModeButton nightModeButton;
-         RelativeLayout relativeLayout;
-    
-        relativeLayout = findViewById(R.id.rootLayout);
-        nightModeButton = findViewById(R.id.nightModeButton);
 
-        final int colorFrom = getResources().getColor(R.color.white);
-        final int colorTo = getResources().getColor(R.color.dark);
-
-
+         nightModeButton = findViewById(R.id.nightModeButton);
 
         nightModeButton.setOnSwitchListener(new NightModeButton.OnSwitchListener() {
             @Override
             public void onSwitchListener(boolean isNight) {
                 if(isNight){
-                    //Function to change color
-                    animateBackground(colorFrom,colorTo);
-                    animateStatusActionBar(getResources().getColor(R.color.colorPrimary),colorTo);
                     Toast.makeText(getApplicationContext(),"Night Mode On",Toast.LENGTH_SHORT).show();
                 }else {
-                    animateBackground(colorTo,colorFrom);
-                    animateStatusActionBar(colorTo,getResources().getColor(R.color.colorPrimary));
                     Toast.makeText(getApplicationContext(),"Night Mode Off",Toast.LENGTH_SHORT).show();
                 }
             }
         });
+
+
+        //Toggle nightModeButton programmatically
+
+        //Toggle ON:
+        nightModeButton.setToggle(true);
+        //Toggle OFF:
+        nightModeButton.setToggle(false);
         
 
         
 ```
-
-### TODO
-1. Color Customization
-2. Animation Speed
-3. Add Confetti effect
 
 ## License
 
 ```
 MIT License
 
-Copyright (c) 2018 Shrikanth Ravi
+Copyright (c) 2021 Kaustuv Mahanti
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
