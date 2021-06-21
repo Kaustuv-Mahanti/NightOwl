@@ -4,16 +4,15 @@ import android.animation.ArgbEvaluator;
 import android.animation.ValueAnimator;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.os.Handler;
 import android.widget.RelativeLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.nightowl.library.ToggleButton;
+import com.nightowl.library.NightOwlToggleButton;
 
 public class MainActivity extends AppCompatActivity {
 
-    ToggleButton nightModeButton;
+    NightOwlToggleButton nightModeButton;
     RelativeLayout relativeLayout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        nightModeButton.setOnSwitchListener(new ToggleButton.OnSwitchListener() {
+        nightModeButton.setOnSwitchListener(new NightOwlToggleButton.OnSwitchListener() {
             @Override
             public void onSwitchListener(boolean isNight) {
                 if(isNight){

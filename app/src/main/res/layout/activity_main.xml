@@ -7,12 +7,12 @@
 	android:id="@+id/rootLayout"
 	android:background="@android:color/white"
 	tools:context=".MainActivity">
-	<com.nightowl.library.ToggleButton
+	<com.nightowl.library.NightOwlToggleButton
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_centerHorizontal="true"
 		android:id="@+id/nightModeButton"
 		android:layout_centerVertical="true">
 
-	</com.nightowl.library.ToggleButton>
+	</com.nightowl.library.NightOwlToggleButton>
 </RelativeLayout>

@@ -26,7 +26,7 @@ Easy to use night mode button with cool day night animation.
 	Add the dependency in your app build.gradle
 	```gradle
   dependencies {
-  	        implementation 'com.github.Kaustuv-Mahanti:NightOwl:v1.3.0'
+  	        implementation 'com.github.Kaustuv-Mahanti:NightOwl:v1.4.0'
   	}
 	```
 
@@ -47,7 +47,7 @@ Easy to use night mode button with cool day night animation.
   	<dependency>
     	    <groupId>com.github.Kaustuv-Mahanti</groupId>
     	    <artifactId>NightOwl</artifactId>
-    	    <version>v1.3.0</version>
+    	    <version>v1.4.0</version>
     	</dependency>
 	```
   
@@ -55,11 +55,11 @@ Easy to use night mode button with cool day night animation.
 
 Drop the Night Mode Button in your XML layout as is shown below:
 ```xml
-    	<com.nightowl.library.ToggleButton
-    	        android:id="@+id/nightModeButton"
+    	<com.nightowl.library.NightOwlToggleButton
         		android:layout_width="wrap_content"
         		android:layout_height="wrap_content"
         		android:layout_centerHorizontal="true"
+        		android:id="@+id/nightModeButton"
         		android:layout_centerVertical="true"/>
 
 ```

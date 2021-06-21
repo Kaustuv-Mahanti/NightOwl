@@ -16,9 +16,9 @@ import androidx.appcompat.app.AppCompatDelegate;
 import androidx.cardview.widget.CardView;
 
 
-public class ToggleButton extends RelativeLayout {
+public class NightOwlToggleButton extends RelativeLayout {
 
-    public ToggleButton(Context context) {
+    public NightOwlToggleButton(Context context) {
         super(context);
     }
 
@@ -34,7 +34,7 @@ public class ToggleButton extends RelativeLayout {
     protected OnSwitchListener onSwitchListener;
     private boolean inAnimation=false;
 
-    public ToggleButton(Context context, AttributeSet attrs) {
+    public NightOwlToggleButton(Context context, AttributeSet attrs) {
         super(context, attrs);
         init(context);
     }
