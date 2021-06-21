@@ -66,7 +66,7 @@ Drop the Night Mode Button in your XML layout as is shown below:
 And Use in Java:
 ```java
         
-         NightModeButton nightModeButton;
+         NightOwlToggleButton nightModeButton;
 
          nightModeButton = findViewById(R.id.nightModeButton);
 
