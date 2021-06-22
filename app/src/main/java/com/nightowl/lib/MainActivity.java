@@ -4,6 +4,7 @@ import android.animation.ArgbEvaluator;
 import android.animation.ValueAnimator;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.RelativeLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,8 +24,6 @@ public class MainActivity extends AppCompatActivity {
 
         final int colorFrom = getResources().getColor(R.color.white);
         final int colorTo = getResources().getColor(R.color.dark);
-
-
 
         nightModeButton.setOnSwitchListener(new NightOwlToggleButton.OnSwitchListener() {
             @Override

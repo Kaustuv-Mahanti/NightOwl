@@ -82,7 +82,9 @@ public class NightOwlToggleButton extends RelativeLayout {
 
                         @Override
                         public void onAnimationEnd(Animator animator) {
+
                             inAnimation=false;
+                            nightModeButtonClicked(isNight);
                         }
 
                         @Override
@@ -101,8 +103,6 @@ public class NightOwlToggleButton extends RelativeLayout {
                             switchRL.setCardBackgroundColor((int)animation.getAnimatedValue());
                         }
                     });
-
-                    nightModeButtonClicked(isNight);
 
                 }else {
 
@@ -127,7 +127,9 @@ public class NightOwlToggleButton extends RelativeLayout {
 
                             @Override
                             public void onAnimationEnd(Animator animator) {
+
                                 inAnimation = false;
+                                nightModeButtonClicked(isNight);
                             }
 
                             @Override
@@ -147,8 +149,6 @@ public class NightOwlToggleButton extends RelativeLayout {
                             }
                         });
                         switchIV.setImageDrawable(context.getDrawable(R.drawable.night_icon));
-
-                        nightModeButtonClicked(isNight);
                     }
                 }
             }
@@ -201,6 +201,7 @@ public class NightOwlToggleButton extends RelativeLayout {
                 @Override
                 public void onAnimationEnd(Animator animator) {
                     inAnimation=false;
+                    nightModeButtonClicked(isNight);
                 }
 
                 @Override
@@ -219,8 +220,6 @@ public class NightOwlToggleButton extends RelativeLayout {
                     switchRL.setCardBackgroundColor((int)animation.getAnimatedValue());
                 }
             });
-
-            nightModeButtonClicked(isNight);
 
         }else {
             if(!inAnimation) {
@@ -245,6 +244,7 @@ public class NightOwlToggleButton extends RelativeLayout {
                     @Override
                     public void onAnimationEnd(Animator animator) {
                         inAnimation = false;
+                        nightModeButtonClicked(isNight);
                     }
 
                     @Override
@@ -264,8 +264,6 @@ public class NightOwlToggleButton extends RelativeLayout {
                     }
                 });
                 switchIV.setImageDrawable(mContext.getDrawable(R.drawable.night_icon));
-
-                nightModeButtonClicked(isNight);
             }
         }
     }
