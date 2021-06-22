@@ -201,7 +201,6 @@ public class NightOwlToggleButton extends RelativeLayout {
                 @Override
                 public void onAnimationEnd(Animator animator) {
                     inAnimation=false;
-                    nightModeButtonClicked(isNight);
                 }
 
                 @Override
@@ -244,7 +243,6 @@ public class NightOwlToggleButton extends RelativeLayout {
                     @Override
                     public void onAnimationEnd(Animator animator) {
                         inAnimation = false;
-                        nightModeButtonClicked(isNight);
                     }
 
                     @Override

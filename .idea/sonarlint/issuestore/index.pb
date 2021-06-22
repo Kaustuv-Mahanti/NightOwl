@@ -40,3 +40,11 @@ $.idea/dictionaries/shrikanthravi.xml,e\d\ed764aa0705f23edfc06ac50f9f90f320de01
 settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
 A
 gradle.properties,2\a\2afbb999f001938c88fa43fc2ef52abf0f8213e4
+<
+build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
+@
+app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
+D
+library/build.gradle,b\c\bc1e6337a6cee4d549ebc79c089f4196728c3aeb
+d
+4app/src/main/java/com/nightowl/lib/MainActivity.java,5\7\572c5c54ba84e7728de9059d68dac3e76d2c5eee
