@@ -46,5 +46,3 @@ A
 app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
 D
 library/build.gradle,b\c\bc1e6337a6cee4d549ebc79c089f4196728c3aeb
-d
-4app/src/main/java/com/nightowl/lib/MainActivity.java,5\7\572c5c54ba84e7728de9059d68dac3e76d2c5eee

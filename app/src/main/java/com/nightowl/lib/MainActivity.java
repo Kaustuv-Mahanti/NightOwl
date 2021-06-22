@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
         final int colorFrom = getResources().getColor(R.color.white);
         final int colorTo = getResources().getColor(R.color.dark);
 
+        nightModeButton.setToggle(true);
+
         nightModeButton.setOnSwitchListener(new NightOwlToggleButton.OnSwitchListener() {
             @Override
             public void onSwitchListener(boolean isNight) {
